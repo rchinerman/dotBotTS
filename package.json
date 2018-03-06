@@ -1,0 +1,45 @@
+{
+  "name": "rybot",
+  "version": "1.0.0",
+  "description": "A discord bot made in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf ./dist/ && tsc",
+    "type-check": "tsc",
+    "start": "cd dist && node index.js"
+  },
+  "author": "Ryan Hinerman",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^1.6.7",
+    "discord.js": "^11.3.2",
+    "nodemon": "1.11.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.0",
+    "@types/node": "^9.4.6",
+    "ajv": "^6.2.1",
+    "bufferutil": "^3.0.3",
+    "chai": "^4.1.2",
+    "discord.js-commando": "^0.9.0",
+    "erlpack": "^0.1.2",
+    "jest": "^22.4.2",
+    "libsodium-wrappers": "^0.7.3",
+    "node-fetch": "^1.7.3",
+    "node-opus": "^0.2.7",
+    "opusscript": "0.0.6",
+    "sodium": "^2.0.3",
+    "ts-jest": "^22.4.1",
+    "tsc": "1.20150623.0",
+    "tslint": "^5.9.1",
+    "tslint-eslint-rules": "^5.1.0",
+    "typescript": "^2.6.2",
+    "typescript-eslint-parser": "3.0.0",
+    "uws": "^9.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rchinerman/dotbot.git"
+  }
+}
